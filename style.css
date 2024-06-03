@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(69, 230, 245);
+    color: rgb(0, 1, 10);
     padding: 10px;
     font-family: arial;
 }
@@ -10,34 +10,34 @@ body {
 }
 
 /* navigation menu */
-nav {
-    background: rgb(239, 80, 41);
-   margin: 0 auto;
+nav { border-radius: 50%;
+    background: rgb(60, 174, 240);
+   margin: 0 auto; margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: hsl(60, 174, 240);
     flex: 1;
     margin: 0;
 }
 #nav-ul {
     list-style-image: none;
 }
-.nav-li {
+.nav-li { border-radius: 25;
     display: inline-block;
     padding: 0 10px;
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ec3333;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgba(52, 130, 233, 0.918);
     display: flex;
 }
 .sidebar {
@@ -54,7 +54,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgba(78, 171, 247, 0.233) ridge;
     padding: 8px;
 }
 h2, h3 {
