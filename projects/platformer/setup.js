@@ -92,9 +92,11 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  diamond: { image: "https://i.pinimg.com/474x/de/58/72/de5872da91676f76636e47a1f584a513.jpg"},
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
-};
+  steve: { image: "https://clipart-library.com/images/dT45GppGc.png"},
+  najae:{ image:"https://logos-world.net/wp-content/uploads/2020/11/Spider-Man-Emblem.png"},
+  wow:{ image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCFH27W7pWzEHgIHevf5bmXDRsJaQDi_HsGqyiIA57J2nEc-A:https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Trophy-and-Medals-PNG/1st_Place_Trophy_Transparent_PNG_Clip_Art_Image.png%3Fm%3D1629819195&s"},
+}
