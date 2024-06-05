@@ -25,6 +25,10 @@ nav {
     border-color: #801d67;
     border-style: inherit;
 }
+#unique{
+  border-style: double;
+  border-color: #801d67;
+}
 h1 {
     display: flex;
     text-align: center;
