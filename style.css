@@ -17,17 +17,17 @@ nav {
     display: flex;
     padding: 10px;
 }
-#special{
-    border-style: double;
+#special {
+    border-style: inherit;
     border-color: #801d67;
 }
-#special{
+#special {
     border-color: #801d67;
     border-style: inherit;
 }
-#unique{
-  border-style: double;
-  border-color: #801d67;
+#special {
+  border-style: outset;
+  border-color: #000000;
 }
 h1 {
     display: flex;
@@ -35,15 +35,12 @@ h1 {
     color: hsl(60, 174, 240);
     flex: 2;
     margin: 2;
-#special {
-    border-style: unset;
-    border-color: darkorchid;
- }
-#special {
-border-style: ridge;
-border-color: #801d67;
- }
 }
+#special {
+border-style: outset;
+border-color: #992b7ee3;
+ }
+
 #nav-ul {border-radius: 25;
     list-style-image: none;
 }
@@ -67,6 +64,8 @@ color: #801d67;
 }
 .sidebar-img {
     width: 150px;
+    border-style: groove;
+    border-color: #801d67;
 }
 .content {
     flex: 1;
